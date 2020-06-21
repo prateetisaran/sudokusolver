@@ -26,6 +26,7 @@ def columns_and_boxes(rows):
       k = 1 
     elif number>3 and number<7:
       k = 4
+      
     elif number>6:
       k = 7 
     r1 = (rows[k])['nums']
